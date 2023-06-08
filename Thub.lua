@@ -1,18 +1,13 @@
+
+
+
+
+
+
+
+
+
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
-
-local Notify = AkaliNotif.Notify;
-
-Notify({
-
-Description = "Made by tibe0124";
-
-Title = "Loaded, thanks for using";
-
-Duration = 10;
-
-});
-
- local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 
 local Notify = AkaliNotif.Notify;
 
@@ -20,7 +15,7 @@ Notify({
 
 Description = "We got 1.5 views on scriptblox in 2 days";
 
-Title = "Thanks for supporting tibe hub";
+Title = "Made by tibe0124";
 
 Duration = 5;
 
