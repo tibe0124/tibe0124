@@ -26,7 +26,7 @@ local Window = Library.CreateLib("Tibe Hub --- Ver.1.4", "BloodTheme")
 
 local Tab1 = Window:NewTab("Changelog")
 
-local Tab1Section = Tab1:NewSection("Tibe Hub v1.3")
+local Tab1Section = Tab1:NewSection("Tibe Hub v1.4")
 
 local Tab2 = Window:NewTab("Game Scripts")
 
@@ -55,7 +55,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/Name
 
 end)
 
- Section:NewButton("Add Stream sniper", "ButtonInfo", function()
+Tab1Section:NewButton("Add Stream sniper", "ButtonInfo", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
 
@@ -200,7 +200,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 
 end)
 
- Section:NewButton("Stream sniper", "Join player in all games", function()
+Tab4Section:NewButton("Stream sniper", "Join player in all games", function()
 
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
 
