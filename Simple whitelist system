@@ -1,10 +1,9 @@
---Beemo's simple whitelist
+--[[Simple whitelist system]]--
 _G.Key = "Key1"
 
 local keys = {
     "Key1",
-    "Key2",
-    "key3"
+    "Key2"
 }
 
 local counter = 1
